@@ -1,0 +1,65 @@
+addEventListener("fetch", event => {
+  const data = {
+       "name": "Sabuj Basinda",
+         "short_name": "Sabuj Basinda",
+           "description": "Sabuj Basinda is a blog of every unknown or rare known things around the world.",
+             "lang": "en-US",
+               "display": "standalone",
+                 "background_color": "#ffffff",
+                   "start_url": "https://www.sabujbasinda.com/",
+                     "theme_color": "#ffffff",
+                       "orientation": "portrait",
+                         "icons": [
+                             {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_CIdhwIXa9IFWsCnyAiNOl-480XFS3vGeJYABGSTQBbS_WwlcyuVVfxU1LUFO1ybWWg03UKp3xter6v8lid7w8jAA5V3vzUPWMFT7TOYFRf8xkq1lUBF73-haj6lkptHTqqSAJ83xWIqLej52xOfVYNQfR2hMNTAJLv0F3BO4xTYsoX2Ztwicn0hG/s16000/android-icon-36x36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhc0E2OV8mvy_CIARlXt5AcRsXjMKkzKEV3_-gRaJQnn8M5dzKAOlq-UNaZ8gyzDmuBSCwa7wC6GY_0ehGEYvTY8WN9w8OqyENocXcqOAPCc1N3B3GZGvQz6EQxUu8LQy-5bEdOlz0o-ZaAFiMDjn1GD0npOSUxnlCbA5hxx5CryF7beKas78uk3Udy/s16000/android-icon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhacjD356lv2_qi7xC-9x4TIXYEi3AC_niJ0FUGqNpzC1rTM8D7CF9dXfjKbGI_y-QKqvyRM60PWGPQQIt9nOWY20fWnkhBEOG0lQtE33FKk_V-9yKjOxJQ9rWT8MhYWXgb720WAYoHsGF1BTTReRYf0V9pkWPHWIWdrc9O3hrKwdFaMVOlBWSt33Mq/s16000/android-icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXzkabT4OPBAXUxolOxpPErhSBjqApvzFzfJJM_SGm6DPRKi8BnChhG1qan_G29yYioD9sR0UQXG4Zc2oL8wFudM0rCwFU8OXIrwrynJ5A2jTaHGeH3ZqqIRaY4p30KFmABJFL2RrxgwGEQZlHHYbLI5y5v9mKvsz5on3byivXrfc9Jc-v4MpE5esV/s16000/android-icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinXalVTvkKSauEul7kq4WnUIjJIppcRoZbPspF9rCtXOB7QBwvHNUvTbQrLWU3PVhLQlBWxFHph6fDtd_r5ZaMtefadOvs3tE25ELsJD5-aQwQ_LN5-8CEyb7iw8Eu-_2e_qSB9O7j_jgu95Jc8w2E201p_KlOOcbrx5c3SuxCdqyoB8NQheAfRWJW/s16000/android-icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfx2hZXcZB3LIRZphji8uitY6xWElLjyD2465ZzYpw76a8A0GxDgqvmphZ3fOvo9IuQPntIfO0fk9yjWXSGJUmfLLkTf0KrocuhxrS3kn22HaR_zLV2DIGbX4IgpTjSYKLZHQ-Y8_Y0DjTu4ANHo25x1HTMW5rTnEC_EYTRKtlZjd6mmzRmWrPH98G/s16000/android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8IyFMyE5CmyNGwXINB9MCrBh7AS-aX1pp_uzgFH-eiQw8PsKY6InsSN4tBoZz5oXpebQSz6gDlonsPJakiRvDAFHU9eDPctdnk-TSexiul0PwW3wj_5s1d5e9gGC8o1Qrq4xnYSOSW1_AzZcdygF1MWNBSWsM9vxBBeOZgHKcpT3UXMQlrc_A3mW1/s16000/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+                                                                ]
+                                                        }
+  const json = JSON.stringify(data, null, 2)
+  return event.respondWith(
+      new Response(json, {
+            headers: {
+                    "content-type": "application/json;charset=UTF-8"
+                          }
+                              })
+                                )
+                                })
