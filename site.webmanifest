@@ -1,0 +1,23 @@
+   {
+    "name": "Sabuj Basinda",
+    "short_name": "Sabuj Basinda",
+    "icons": [
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXixs6nPbE2EnSFVUIp9C7z1_uINxDJPwE2yc3ECXf90zXYxp3Dhvg9jtXFw0EhAZwlYJ5e7rYMghH7PQXarSzEB-foSdI_U9v2zLaltc-tEGZnI_GLL5YJUF5pyCSWBKD1Drjs0pwg7yu08o_oTkOZCdfMC71MjZB0NFxLYzcnTYiGTt2N0jK-dh3/s16000/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8IyFMyE5CmyNGwXINB9MCrBh7AS-aX1pp_uzgFH-eiQw8PsKY6InsSN4tBoZz5oXpebQSz6gDlonsPJakiRvDAFHU9eDPctdnk-TSexiul0PwW3wj_5s1d5e9gGC8o1Qrq4xnYSOSW1_AzZcdygF1MWNBSWsM9vxBBeOZgHKcpT3UXMQlrc_A3mW1/s16000/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "prefer_related_applications": false,
+    "start_url": "https://www.sabujbasinda.com"
+}
